@@ -1,0 +1,24 @@
+# Build output
+bin/
+obj/
+artifacts/
+publish/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ReSharper / Rider
+.idea/
+*.DotSettings.user
+
+# Packages and archives
+*.nupkg
+*.zip
+
+# Windows
+Thumbs.db
+desktop.ini

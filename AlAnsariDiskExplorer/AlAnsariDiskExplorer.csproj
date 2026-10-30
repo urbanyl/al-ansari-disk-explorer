@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Assets\app.ico</ApplicationIcon>
+    <AssemblyName>AlAnsariDiskExplorer</AssemblyName>
+    <RootNamespace>AlAnsariDiskExplorer</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Product>Al-Ansari Disk Explorer</Product>
+    <Company>Al-Ansari</Company>
+    <Description>Large file finder with protected system files</Description>
+    <Version>1.0.0</Version>
+    <AssemblyTitle>Al-Ansari Disk Explorer</AssemblyTitle>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\app.ico" />
+  </ItemGroup>
+
+</Project>
